@@ -52,7 +52,7 @@ elif category == '카테고리 2':
         # # 카테고리 2의 최신 공지사항 정보 출력
         latest_notice = notice_df2.iloc[0]
         st.write('제목:', latest_notice['제목'])
-        st.write('registration date:', latest_notice['registration date'])
+        st.write('등록일:', latest_notice['등록일'])
         st.write('링크:', latest_notice['링크'])
 else: # 카테고리 3
     if keyword:
